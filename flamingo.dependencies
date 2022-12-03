@@ -8,5 +8,10 @@
 		"target_path": "vendor/xiaomi/apollo",
 		"branch": "A13",
 		"clone-depth": "1"
-	}
+	},
+        {
+                "repository": "vendor_xiaomi_firmware_apollo",
+                "target_path": "vendor/xiaomi/firmware",
+                "branch": "A13"
+        }
 ]

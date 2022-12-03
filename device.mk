@@ -7,6 +7,9 @@
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
+# Firmware
+$(call inherit-product, vendor/xiaomi/firmware/apollo/firmware.mk)
+
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Overlays
